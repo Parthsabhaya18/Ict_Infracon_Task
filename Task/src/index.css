@@ -1,0 +1,26 @@
+@tailwind base;
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.hero{
+  background-image: url('../../public/off11.jpg');
+  background-size: contain;
+}
+@keyframes slide-in-left {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-slide-in-left {
+    animation: slide-in-left 1s ease-out forwards;
+  }
+  
+@tailwind components;
+@tailwind utilities;
