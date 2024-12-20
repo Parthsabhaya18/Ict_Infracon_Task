@@ -13,7 +13,7 @@ const Hero = () => {
         />
         <button className="w-full bg-blue-500 text-white p-2 rounded">Submit</button>
       </div>
-      <div className="hero p-6 md:p-8 rounded shadow-md w-full max-w-4xl mx-4">
+      <div className=" p-6 md:p-8 rounded shadow-md w-full max-w-4xl mx-4" id='hero'>
         <h1 className="text-4xl font-bold mb-4 text-white text-center md:text-left">Welcome to Excise Services</h1>
         <p className="text-gray-300 text-justify">
           Excise Department in Karnataka came into existence during the year 1968 after relaxation of prohibition in Karnataka State. The scope of the State Excise Administration covers commodities such as Spirit, Indian Made Liquor, Beer, Medicinal and Toilet preparations etc. The objectives of the department can be summed up as ensuring public health through regulated procurement of raw-materials, manufacture of various commodities by use of these raw-materials, their storage and distribution. These regulations ensure proper flow of revenues to the State exchequer. Thus, the Excise Department in Karnataka is the second largest revenue-earning department in the state functioning under the administrative control of the Finance Department.
